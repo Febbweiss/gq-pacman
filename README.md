@@ -1,5 +1,5 @@
 gq-pacman is a jQuery implementation of the famous Namco's Pacman.
-==================================================================
+
 
 How to :
 --------
@@ -24,3 +24,8 @@ Credits :
 * Tools : [gameQuery](http://gamequeryjs.com/)
 * Sounds : [Sound FX Center](http://soundfxcenter.com/sound_effect/search.php?sfx=Pacman)
 
+Licences :
+----------
+
+Source code is under [MIT Licence](http://opensource.org/licenses/mit-license.php)
+Sprite is under [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/legalcode)
