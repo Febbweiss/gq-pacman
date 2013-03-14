@@ -1,0 +1,267 @@
+#playgroundContainer {
+	width: 448px; 
+	height: 512px; 
+	background-color: black; 
+	margin-left: auto; 
+	margin-right: auto;
+}
+
+.actor {
+	width: 32px;
+	height: 32px;
+	position: relative;
+	margin-top: -16px;
+	margin-left: -16px;
+}
+
+/** TILES **/
+
+.tile {
+	width: 16px;
+	height: 16px;
+	float: left;
+	margin: 0px;
+	padding: 0px;
+}
+
+.corner1 {
+	background-image: url('../img/sprite.png');
+	background-position: -0px -0px;
+}
+
+.corner2 {
+	background-image: url('../img/sprite.png');
+	background-position: -16px -0px;
+}
+
+.corner3 {
+	background-image: url('../img/sprite.png');
+	background-position: -32px 0px;
+}
+
+.corner4 {
+	background-image: url('../img/sprite.png');
+	background-position: -48px 0px;
+}
+
+.horizontalMidUp {
+	background-image: url('../img/sprite.png');
+	background-position: -96px -0px;
+}
+
+.horizontalMidDown {
+	background-image: url('../img/sprite.png');
+	background-position: -112px -0px;
+}
+
+.verticalMidLeft {
+	background-image: url('../img/sprite.png');
+	background-position: -64px -0px;
+}
+
+.verticalMidRight {
+	background-image: url('../img/sprite.png');
+	background-position: -80px -0px;
+}
+
+.squareCornerTopLeft {
+	background-image: url('../img/sprite.png');
+	background-position: -128px -0px;
+}
+
+.squareCornerTopRight {
+	background-image: url('../img/sprite.png');
+	background-position: -144px -0px;
+}
+
+.squareCornerBottomLeft {
+	background-image: url('../img/sprite.png');
+	background-position: -160px -0px;
+}
+
+.squareCornerBottomRight {
+	background-image: url('../img/sprite.png');
+	background-position: -176px -0px;
+}
+
+.gate {
+	background-image: url('../img/sprite.png');
+	background-position: -192px -0px;
+}
+
+.dot {
+	background-image: url('../img/sprite.png');
+	background-position: -208px -0px;
+}
+
+.bigDot {
+	background-image: url('../img/sprite.png');
+	background-position: -208px -16px;
+}
+
+.ghost {
+	width: 32px;
+	height: 32px;
+	float: left;	
+}
+
+.blinky {
+	background-image: url('../img/sprite.png');
+	background-position: -160px -48px;
+}
+.pinky {
+	background-image: url('../img/sprite.png');
+	background-position: -160px -80px;
+}
+.inky {
+	background-image: url('../img/sprite.png');
+	background-position: -160px -112px;
+}
+.clyde {
+	background-image: url('../img/sprite.png');
+	background-position: -160px -144px;
+}
+
+.cherries {
+	background-image: url('../img/sprite.png');
+	background-position: -208px -32px;
+}
+
+.strawberry {
+	background-image: url('../img/sprite.png');
+	background-position: -208px -48px;
+}
+
+.peach {
+	background-image: url('../img/sprite.png');
+	background-position: -208px -64px;
+}
+
+.apple {
+	background-image: url('../img/sprite.png');
+	background-position: -208px -80px;
+}
+
+.grapes {
+	background-image: url('../img/sprite.png');
+	background-position: -208px -96px;
+}
+
+.galaxian {
+	background-image: url('../img/sprite.png');
+	background-position: -208px -112px;
+}
+
+.bell {
+	background-image: url('../img/sprite.png');
+	background-position: -208px -128px;
+}
+
+.key {
+	background-image: url('../img/sprite.png');
+	background-position: -208px -144px;
+}
+
+.description {
+	padding-left: 40px;
+	line-height: 3em;
+	vertical-align:  middle;
+}
+/** HUD **/
+
+#message {
+	position : absolute;
+	left : 50%;
+	top : 50%;
+}
+
+#level {
+	position : relative;
+	top: -10px;
+	left: 5px;
+}
+
+#levelNumber {
+	position : relative;
+	top: -14px;
+	float: left;
+	margin-left: 100px;
+}
+
+#lives {
+	position: absolute;
+	top: -1px;
+	right: 10px;
+}
+
+#scoreMessage {
+	position: absolute;
+	right: 0px;
+}
+
+.life {
+	width: 32px;
+	height: 32px;
+	float: left;
+	background-image: url('../img/sprite.png');
+	background-position: 0px -16px;
+}
+
+/** SCOREBOARD**/
+
+.clock { 
+	background : transparent url("../img/font.png") no-repeat top left; 
+	height:32px; 
+	width:32px; 
+	float:left;
+}
+
+.clock.red {
+	background : transparent url("../img/font-red.png") no-repeat top left; 
+}
+
+.clock.yellow {
+	background : transparent url("../img/font-yellow.png") no-repeat top left; 
+}
+
+.clock.small {
+	position: relative;
+	top: 45%;
+	height: 16px;
+	width: 16px;
+}
+
+.n0 { 
+	background-position : 0px 0px;
+}
+.n1 { 
+	background-position : -32px 0px;
+}
+.n2 { 
+	background-position : -64px 0px;
+}
+.n3 { 
+	background-position : -96px 0px;
+}
+.n4 { 
+	background-position : -128px 0px;
+}
+.n5 { 
+	background-position : -160px 0px;
+}
+.n6 { 
+	background-position : -192px 0px;
+}
+.n7 { 
+	background-position : -224px 0px;
+}
+.n8 { 
+	background-position : -256px 0px;
+}
+.n9 { 
+	background-position : -288px 0px;
+}
+
+.hiddenDot {
+	visibility: hidden;
+}

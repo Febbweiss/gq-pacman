@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pacman</title>
+        <!--[if IE]>
+        <style type="text/css" media="screen">
+        	body {
+ 				behavior: url("css/hack/csshover3.htc");
+			}
+        </style>
+        <![endif]-->
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	
+        <script src="lib/jquery-1.8.3.min.js" type="text/javascript" ></script>
+        <script src="lib/jquery-ui-1.8.23.custom.min.js" type="text/javascript" ></script>
+<!--
+	<script src="lib/soundmanager2.min.js" type="text/javascript"></script>
+-->
+	<script src="lib/gamequery-0.7.0.js" type="text/javascript" ></script>
+<!--
+	<script src="lib/gamequery-soundwrapper-soundmanager.js" type="text/javascript"></script>
+-->
+	<script src="js/utils.js" type="text/javascript"></script>
+        <script src="js/scoreboard.js" type="text/javascript" ></script>
+        <script src="js/pacman-data.js" type="text/javascript" ></script>
+        <script src="js/pacman-ui.js" type="text/javascript" ></script>
+        <script src="js/pacman-core.js" type="text/javascript" ></script>
+	<link href="css/pacman.css" type="text/css" rel="stylesheet" media="screen, projection" />
+
+    </head>
+	<div style="width: 50%; float: left;">
+		<div id="playgroundContainer" style="float:right;padding: 4px;">
+			<div id="playground"></div>
+		</div>
+	</div>
+	<div style="width: 40%; float: right;">
+		<div style="background-color: black;width: 448px;padding: 4px;">
+			<div id="ranking"></div>
+			<div style="color: white;">
+				<p>
+					Famous Namco&copy;'s Pacman&copy; is now available !!!
+				</p>
+				<p>
+					Use your keyboard arrows to move Pacman to eat all energizer to complete the level.<br />
+					Ghosts become frightened when Pacman eats a big energizer. Eat them !!!<br />
+				</p>
+				<p>
+					Beware of ghost who haunt the maze !!! Each one has his own personality :
+				</p>
+				<div><span class="ghost blinky"></span><div class="description"><b><i>Blinky</i></b> tracks Pacman as his shadow.</div></div>
+				<div class="clear"></div>
+				<div><span class="ghost pinky"></span><div class="description"><b><i>Pinky</i></b> perfoms ambushes to Pacman.</div></div>
+				<div class="clear"></div>
+				<div><span class="ghost inky"></span><div class="description"><b><i>Inky</i></b> is the least predictable.</div></div>
+				<div class="clear"></div>
+				<div><span class="ghost clyde"></span><div class="description"><b><i>Clyde</i></b> pretends ignorance and is one who lags behind.</div></div>
+
+				<p>
+					<ul>
+						<li>Graphics : Fabrice Ecaille aka Febbweiss
+						<li>Code : Fabrice Ecaille aka Febbweiss
+						<li>Algorithm : Based on the <a href="http://home.comcast.net/~jpittman2/pacman/pacmandossier.html" target="_blank">Pacman Dossier</a>
+						<li>Tools : <a href="http://gamequeryjs.com/" target="_blank">gameQuery</a>
+						<li>Sounds : <a href="http://soundfxcenter.com/sound_effect/search.php?sfx=Pacman" target="_blank">Sound FX Center</a>
+					</ul>
+				</p>
+			</div>
+		</div>
+	</div>
+	<div style="clear: both;"></div>
+	<div style="text-align: center; width: 100%;">
+		<a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.
+	</div>
+
+	<script type="text/javascript">
+		$(document).ready(function () {
+			GUI.drawText( $("#ranking"), 'Howto');
+		});
+	</script>	
+    </body>
+</html>
