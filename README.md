@@ -13,7 +13,7 @@ Beware of ghost who haunt the maze !!! Each one has his own personality :
  * Inky is the least predictable.
  * Clyde pretends ignorance and is one who lags behind.
 
-A live demo is avalaible [here](http://www.pavnay.fr/gq-pacman/)
+A live demo is avalaible [here](https://febbweiss.github.io/games/pacman/)
 
 Credits :
 ---------
